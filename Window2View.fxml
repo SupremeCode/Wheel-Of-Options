@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Window2Controller">
+   <children>
+      <Group fx:id="group2" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <ImageView fx:id="ColorWheel2" fitHeight="350.0" fitWidth="350.0" layoutX="158.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-175.0" AnchorPane.leftAnchor="158.0" AnchorPane.rightAnchor="-158.0" AnchorPane.topAnchor="175.0">
+               <image>
+                  <Image url="@ColorWheel-2.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="option2" alignment="CENTER" layoutX="196.0" layoutY="335.0" prefHeight="30.0" prefWidth="132.0" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="option1" alignment="CENTER" layoutX="342.0" layoutY="335.0" prefHeight="30.0" prefWidth="136.0" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="217.0" layoutY="416.0" mnemonicParsing="false" onAction="#spin" text="Spin" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="223.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pointer.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="399.0" layoutY="426.0" mnemonicParsing="false" onAction="#goBack" text="Go Back" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

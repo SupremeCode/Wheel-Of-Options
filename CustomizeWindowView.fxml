@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.CustomizeWindowController">
+   <children>
+      <Label layoutX="108.0" layoutY="22.0" text="Select number of options:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <VBox layoutX="200.0" layoutY="94.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="100.0" mnemonicParsing="false" onAction="#select2" text="2" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="100.0" mnemonicParsing="false" onAction="#select4" text="4" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="100.0" mnemonicParsing="false" onAction="#select6" text="6" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" maxWidth="100.0" mnemonicParsing="false" onAction="#select8" text="8" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button layoutX="366.0" layoutY="421.0" mnemonicParsing="false" onAction="#goBack" text="Go Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

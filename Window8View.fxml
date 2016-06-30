@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Window8Controller">
+   <children>
+      <Group fx:id="group" layoutX="259.0" layoutY="146.0" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <ImageView fitHeight="350.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ColorWheel-8.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="option1" alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="70.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="option2" alignment="CENTER" contentDisplay="CENTER" layoutX="201.0" layoutY="70.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="option4" alignment="CENTER" contentDisplay="CENTER" layoutX="253.0" layoutY="204.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="option3" alignment="CENTER" contentDisplay="CENTER" layoutX="253.0" layoutY="128.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="option5" alignment="CENTER" contentDisplay="CENTER" layoutX="204.0" layoutY="252.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="option6" alignment="CENTER" contentDisplay="CENTER" layoutX="127.0" layoutY="252.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="option7" alignment="CENTER" contentDisplay="CENTER" layoutX="71.0" layoutY="206.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="option8" alignment="CENTER" contentDisplay="CENTER" layoutX="71.0" layoutY="130.0" text="Label" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Button layoutX="217.0" layoutY="405.0" mnemonicParsing="false" onAction="#spin" text="Spin">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="222.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pointer.png" />
+         </image>
+      </ImageView>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="372.0" layoutY="412.0" mnemonicParsing="false" onAction="#goBack" text="Go back" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
